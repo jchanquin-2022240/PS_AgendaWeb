@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+
+body {
+    background: rgb(7,2,103);
+}
+
+.container {
+    background-color: #FFFFFF ;
+    margin: 300px 400px 20px 400px;
+    border: 3px solid #040404;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container .logo {
+    padding: 20px;
+    width: 120px;
+}
+
+.container-user{
+    align-items: center;
+    text-align: center;
+}
+
+.container-user {
+    font-size: 20px;
+}
+
+.container-password {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-password label, img {
+    font-size: 18px;
+    width: 25px;
+}
+
+.container-registro {
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+
+.container-registro .btn {
+    font-size: 15px;
+    font-family:Verdana,Helvetica;
+    font-weight:bold;
+    color:#040404;
+    border:1px solid #040404;
+    width:80px;
+    height:30px;
+}
+
