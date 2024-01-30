@@ -2,9 +2,49 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 body {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.header {
+    background-attachment: fixed;  
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 35vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #040404;
+    position: fixed;
+}
+
+.menu .navbar ul{
+    display: flex;
+    list-style: none;
+     justify-content: center;
+ }
+ 
+ .menu .navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+ }
+ 
+ .menu .navbar ul li a:hover {
+     color: rgb(3, 142, 167);
+ }
