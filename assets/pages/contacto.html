@@ -9,14 +9,14 @@
 <body>
     <header class="header">
         <div class="menu">
-            <a href="" class="logo">Agenda Web</a>
-            <label for="menu">
-                <img src="../../assets/resourse/agenda.png" alt="" width="20px">
+            <label class="menu-logo">
+                <img src="../../assets/resourse/agenda.png" alt="" width="40px">
+                <a href="../../assets/pages/contacto.html" class="logo">Agenda Web</a>
             </label>
 
             <nav class="navbar">
                 <ul>
-                    <li><a href="">Home</a></li>
+                    <li><a href="../../assets/pages/contacto.html">Home</a></li>
                     <li><a href="">Add Datos</a></li>
                     <li><a href="">Detalle Contacto</a></li>
                     <li><a href="">Favoritos</a></li>
@@ -26,45 +26,54 @@
 
         </div>
     </header>
-    <section>
-        <table>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>No.Telefono</th>
-                <th>gmail</th>
-            </tr>
-            <tr>
-                <th>Pablo Francisco</th>
-                <th>Lopez Lorenzo</th>
-                <th>2022-3030</th>
-                <th>plopez@gmail.com</th>
-            </tr>
-            <tr>
-                <th>Ana Sofia</th>
-                <th>Mercedes Paz</th>
-                <th>1234-1234</th>
-                <th>aMerdeces@gmail.com</th>
-            </tr>
-            <tr>
-                <th>Juan José</th>
-                <th>Perez Roca</th>
-                <th>2222-1111</th>
-                <th>jJose@gmail.com</th>
-            </tr>
-            <tr>
-                <th>Rosa Lucia</th>
-                <th>Rosales Castillo</th>
-                <th>7777-2033</th>
-                <th>rRosales@gmail.com</th>
-            </tr>
-            <tr>
-                <th>Roberto Sebastian</th>
-                <th>Paz Chavez</th>
-                <th>9029-0101</th>
-                <th>rPaz@gmail.com</th>
-            </tr>
+
+    <section class="container">
+        <div class="container-table">            
+            
+            <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>No.Telefono</th>
+                    <th>gmail</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td>Pablo Francisco</td>
+                    <td>Lopez Lorenzo</td>
+                    <td>2022-3030</td>
+                    <td>plopez@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ana Sofia</td>
+                    <td>Mercedes Paz</td>
+                    <td>1234-1234</td>
+                    <td>aMerdeces@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Juan José</td>
+                    <td>Perez Roca</td>
+                    <td>2222-1111</td>
+                    <td>jJose@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Rosa Lucia</td>
+                    <td>Rosales Castillo</td>
+                    <td>7777-2033</td>
+                    <td>rRosales@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Roberto Sebastian</td>
+                    <td>Paz Chavez</td>
+                    <td>9029-0101</td>
+                    <td>rPaz@gmail.com</td>
+                </tr>
+            </tbody>
         </table>
+        <button class="btn">Add Contacto</button>
     </section>
     
 </body>
