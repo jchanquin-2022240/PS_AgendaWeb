@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    min-height: 35vh;
+}
+
+.menu {
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    background-color: #659bf1;
+}
+
+.menu .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.menu .menu-logo,
+.logo {
+    display: flex;
+    margin: 0 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.menu-logo img:hover {
+    transform: scale(1.2);
+}
+
+.navbar .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.navbar .dropdown-content {
+    display: none;
+    position: absolute;
+    text-align: center;
+    background-color: #659bf1;
+    min-width: 140px;
+    box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.8);
+    left: 10px;
+}
+
+.navbar .dropdown-content label,
+a {
+    color: #FFFFFF;
+    padding: 5px 5px;
+    display: block;
+}
+
+.navbar .dropdown:hover .dropdown-content {
+    display: block;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: left;
+    align-items: center;
+    min-height: 40vh;
+}
+
+.container-table {
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    background-color: #003488;
+    /*margin: 50px auto;*/
+}
+
+table {
+    color: #FFFFFF;
+    font-size: 14px;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: center;
+    padding: 20px 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 15px;
+    border: solid 1px rgba(255, 255, 255, 1.2);
+}
+
+tbody tr:hover {
+    background: rgba(255, 255, 255, 0.5);
+}
+
+tbody tr {
+    cursor: pointer;
+}
+
+.container .btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: solid 1px rgba(255, 255, 255, 1.2);
+    background-color: #2864c6b0;
+    border-radius: 3px;
+}
+
+.container a {
+    color: #FFFFFF;
+}
+
+.container a:hover {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+
+.container .btn-fav {
+    margin-left: 20px;
+    background-color: #ffff05;
+    border: none;
+    border-radius: 3px;
+}

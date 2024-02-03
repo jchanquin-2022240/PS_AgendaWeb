@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/pages/favorito.html">
+    <link rel="stylesheet" href="../../assets/styles/styleF.css">
     <title>Favoritos</title>
 </head>
 <body>
@@ -11,7 +11,7 @@
         <div class="menu">
             <label class="menu-logo">
                 <img src="../../assets/resourse/agenda.png" alt="" width="40px">
-                <a href="../../assets/pages/contacto.html">Agenda Web</a>
+                <a class="logo" href="../../assets/pages/contacto.html">Agenda Web</a>
             </label>
 
             <nav class="navbar">
@@ -19,7 +19,7 @@
                     <li><a href="../../assets/pages/contacto.html">Home</a></li>
                     <li><a href="../../assets/pages/addContacto.html">Add Contacto</a></li>
                     <li><a href="../../assets/pages/detalleC.html">Detalle Contacto</a></li>
-                    <li><a href="../../assets/pages/favorito.html">Favorito</a></li>
+                    <li><a href="../../assets/pages/favorito.html">Favoritos</a></li>
                     <li><a href="">ToDo list</a></li>
                     <li class="dropdown"><a href="" class="dropbtn">Perfil</a>
                         <div class="dropdown-content">
@@ -32,6 +32,56 @@
         </div>
     </header>
 
+    <section class="container">
+        <div class="container-table">
     
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Apellido</th>
+                        <th>No.Telefono</th>
+                        <th>gmail</th>
+                        <th>favorito</th>
+                    </tr>
+                </thead>
+                <tbody>
+    
+                    <tr>
+                        <td>Pablo Francisco</td>
+                        <td>Lopez Lorenzo</td>
+                        <td>2022-3030</td>
+                        <td>plopez@gmail.com</td>
+                        <td>
+                        
+                            <button class="btn-fav">
+                                <a href="#">
+                                    <img src="../../assets/resourse/favorito.png" alt="">
+                                </a>
+                        
+                            </button>
+                        
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ana Sofia</td>
+                        <td>Mercedes Paz</td>
+                        <td>1234-1234</td>
+                        <td>aMerdeces@gmail.com</td>
+                        <td>
+                            
+                            <button class="btn-fav">
+                                <a href="#">
+                                    <img src="../../assets/resourse/favorito.png" alt="">
+                                </a>
+                            
+                            </button>
+                        
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn"><a href="../../assets/pages/contacto.html">Regresar</a></button>
+    </section>
 </body>
 </html>
