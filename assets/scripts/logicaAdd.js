@@ -5,4 +5,7 @@ limpiar.onclick = (e) => {
     for (let i = 0; i < elementos.length; i++) {
         elementos[i].value = '';
     }
+
+    alert('Se agrego el contacto');
+
 }
